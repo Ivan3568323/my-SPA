@@ -1,0 +1,46 @@
+.portfolio {
+    background-color: black;
+}
+
+.portfolio .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 1140px;
+    align-items: center;
+}
+
+
+
+.portfolio-item {
+    width: 33.3%;
+    transition: .8s opacity;
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
+    background-color: #2D2D3A;
+    border: 1px solid #3c3d55;
+    margin: 2%;
+}
+
+.portfolio-item:hover {
+    opacity: 0.7;
+}
+
+.portfolio-item:hover .portfolio-item:hover {
+    opacity: 1;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+.portfolio-item__title {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
